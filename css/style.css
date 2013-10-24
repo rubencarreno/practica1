@@ -1,0 +1,128 @@
+body{
+    margin:0;
+    padding:0;	
+}
+
+article{
+	background-color:#72BDDA;
+	float:left;
+	width:100%;
+}
+
+#aside-left{
+	float:left;
+	width:20%;
+}
+
+#aside-left img{
+	width:80%;
+	background-color:white;
+	margin:10% 10%;
+}
+
+#aside-left ul{
+	color:#0561EB;
+	margin-left:16%;
+	padding:0;
+}
+
+#aside-left ul li a{
+	color:#0561EB;
+	text-decoration:none;
+	font-size:16px;
+}
+
+#section1{
+	float:left;
+	width:80%;
+	background-color:#BFECFE;
+}
+
+.subsection{
+	float:left;
+	width:85%;
+	margin-left:7%;
+}
+
+#subsection1 p{
+	float:left;
+	width:60%;
+}
+
+#subsection1{
+	background-image:url(../img/icon_laugth.png);
+	background-repeat:no-repeat;
+	background-position:right top;
+	background-size:256px 128px;
+	border-bottom:1px solid black; 
+	margin-top:2%;
+}
+
+#subsection1 #my-name{
+	font-size:28px;
+	margin:0;
+}
+
+#subsection1 #my-position{
+	font-size:22px;
+	margin-top:0;
+	color:#45D3FE;
+}
+
+#subsection1 #my-department{
+	font-size:17px;
+	margin:0;
+	color:#72DA77;
+	font-weight:bold;
+}
+
+#subsection1 #my-department span{
+	color:black;
+	font-weight:normal;
+}
+
+#subsection1 #my-company{
+	font-size:16px;
+	margin-top:0;
+	font-style:italic;
+}
+
+#subsection2 ul{
+	list-style: none;
+	margin:20px 0;
+	padding:0;
+}
+
+#subsection2 li{
+	background-position:left center;
+	background-repeat:no-repeat;
+	text-indent:55px;
+	font-size:16px;
+	margin-top:10px;
+	line-height:32px;
+}
+
+#subsection2 li a{
+	text-decoration:none;
+	color:#0561EB;
+}
+
+#subsection2 #email{
+	background-image:url(../img/email.png);
+}
+
+#subsection2 #phone{
+	background-image:url(../img/phone.png);
+}
+
+#subsection2 #fax{
+	background-image:url(../img/fax.png);
+}
+
+#subsection2 #address{
+	background-image:url(../img/mailbox.png);
+}
+
+#subsection2 #facebook{
+	background-image:url(../img/facebook.png);
+}
